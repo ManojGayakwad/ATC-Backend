@@ -6,7 +6,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-     origin:["https://atc-backend-api.vercel.app/"],
+     origin:["https://anytime-chai-backend.vercel.app/"],
      methods:["POST", "GET", "PUT", "PATCH"],
      credentials:true
 }));
